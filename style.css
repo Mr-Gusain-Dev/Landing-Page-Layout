@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* universal-properties  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #333;
+    color: #fff;
+    border-bottom: #fff 1px solid;
+} 
+
+.header-section .logo h2{
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    text-shadow: none;
+    transition: 0.3s ease;
+}
+
+.header-section .logo h2:hover{
+    text-shadow: #fff 0px 0px 5px;
+}
+
+
+.header-section .links a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s ease;
+}
+
+.header-section .links a:hover{
+    text-decoration: underline;
+}
+
+.header-section button{
+    padding: 9px 25px;
+    background-color: #333 ;
+    color: #fff;
+    border: #fff 1px solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-shadow: none;
+}
+
+.header-section button:hover{
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0px 0px 5px #fff;   
+}
+
+
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #333;
+    color: #fff;
+}
+
+.left-section{
+     max-width: 500px;
+     margin-right: 20px;
+     padding: 20px 0px; 
+}
+
+.left-section h1{
+    font-size: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    text-shadow: #fff 0px 0px 1px;
+    transition: 0.3s ease;
+}
+
+.left-section h1:hover{
+    text-shadow: #fff 0px 0px 2px;
+}
+
+.left-section p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+
+.left-section button{
+    margin: 10px 0px;
+    padding: 10px 25px;
+    background-color: #333 ;
+    color: #fff;
+    border: #fff 1px solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-shadow: none;
+}
+
+.left-section button:hover{  
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0px 0px 5px #fff;   
+}
+
+.right-section{
+    max-width: 500px;
+    margin-left: 20px;
+    padding: 20px 0px;
+}
+
+.right-section img{
+    width: 100%;
+}
+
+
+/* footer-section  */
+.footer-section{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border-top: #fff 1px solid;
+    padding: 10px 0px;
+}
